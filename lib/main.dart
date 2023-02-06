@@ -1,11 +1,9 @@
+import 'package:calculator/spleshscreen.dart';
 import 'package:flutter/material.dart';
-import 'mcalc.dart';
-
 
 void main() {
   runApp(MaterialApp(
-    home: Mycalcy(),
-
+    home: spleshscreen(),
     debugShowCheckedModeBanner: false,
   ));
 }
